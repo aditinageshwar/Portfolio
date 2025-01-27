@@ -17,6 +17,7 @@ import socket from "../Assest/socket.png";
 import sql from "../Assest/sql.png";
 import tailwind from "../Assest/tailwind.png";
 import webrtc from "../Assest/webrtc.png";
+import three from "../Assest/three.png";
 
 import React, {useEffect,useRef} from 'react';
 import gsap from 'gsap';
@@ -38,6 +39,8 @@ const Skills = () => {
     { name: 'SQL', icon: sql },
     { name: 'Socket.IO', icon: socket },
     { name: 'WebRTC', icon: webrtc },
+    { name: 'React Three/Fiber', icon: three },
+
   ];
   const others = [
     { name: 'Git/GitHub', icon: git },
