@@ -40,9 +40,9 @@ const About = () => {
         <h2 className="text-3xl font-bold text-center mb-6" ref={headingRef}>About <span className="text-yellow-500 dark:text-cyan-500"> Me.. </span></h2>
         <h1 className="text-4xl font-semibold text-center mb-4" ref={subheadingRef}> I’m <span className="text-5xl font-bold text-yellow-500 dark:text-cyan-500">Aditi Nageshwar</span> from Bhopal, Madhya Pradesh</h1>
         <p className="text-lg text-gray-700 px-24 text-justify mb-4 dark:text-gray-300" ref={content1Ref}>
-          A passionate and dedicated Master in Computer Applications (MCA) student at Maulana Azad National Institute of Technology, Bhopal. 
+          A passionate and dedicated Master of Computer Applications (MCA) student at Maulana Azad National Institute of Technology, Bhopal. 
           With a solid foundation in computer science, I have developed a strong proficiency in various programming languages and frameworks.
-          My skills span across the MERN stack and Java language. 
+          My skills span across the MERN stack along with SQL and Java language. 
         </p>
         <p className="text-lg text-gray-700 px-24 text-justify dark:text-gray-300" ref={content2Ref}> 
           My passion for technology and problem-solving led me to secure impressive ranks in competitive exams like GATE-CSE and NIMCET. 

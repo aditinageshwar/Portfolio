@@ -37,7 +37,7 @@ const Projects = () => {
       title: 'Inter Hostel Cart',
       description: 'A web app for MANIT hostel students to buy and sell second-hand items.',
       technology: 'React, Node.js, Express.js, MySQL, Socket.IO',
-      github: 'https://github.com/Dev-Rishav/Inter_HostelCart/tree/Aditi',
+      github: 'https://github.com/aditinageshwar/InterHostelCart',
       photo: InterHostelCart,
     },
     {
@@ -46,13 +46,6 @@ const Projects = () => {
       technology: 'HTML, CSS, JavaScript',
       github: 'https://github.com/aditinageshwar/Shopeur',
       photos: [Shopeur, Shopeur2, Shopeur3, Shopeur4],
-    },
-    {
-      title: 'Weather API',
-      description: 'A weather app providing real-time updates including temperature, wind speed, and humidity with dark and light mode toggle feature.',
-      technology: 'HTML, CSS, JavaScript',
-      github: 'https://github.com/aditinageshwar/WeatherAPI',
-      photo: Weather,
     },
   ];
 

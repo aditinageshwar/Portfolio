@@ -54,7 +54,7 @@ function Home()
           <h1 className="text-5xl font-bold mb-4" ref={subheadingRef}> Aditi Nageshwar</h1>
           <h1 className="text-3xl font-bold mb-3 text-yellow-500 dark:text-cyan-500">
             <Typewriter
-             words={['A MERN Stack Web Developer', 'Competent in Java Programming', 'Passionate about Data Structures & Algorithms']}
+             words={['A MERN Stack Web Developer', 'Competent in Java Programming', 'Passionate about Data Structures & Algorithms', 'Skilled in SQL']}
              loop={true}
              cursor
              cursorStyle='|'
@@ -72,7 +72,7 @@ function Home()
               className="font-semibold text-lg px-4 py-1 border-yellow-500 border-2 text-yellow-500 rounded-lg dark:bg-cyan-500 dark:text-slate-800 dark:hover:bg-cyan-600 dark:border-2 dark:border-cyan-500">
               Hire Me
             </a>
-            <a href="https://drive.google.com/file/d/1HTHOuQl3GFnpEAo29KvxsG68e8UpPvci/view?usp=sharing" 
+            <a href="https://drive.google.com/uc?export=download&id=1NqtYeK3quh5TKgFtFJunF_LKnKs0hZP6" 
               className="flex items-center font-semibold text-lg px-4 py-1 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 dark:bg-slate-800 dark:text-cyan-500 dark:border-2 dark:border-cyan-500">
               Resume
               <MdOutlineFileDownload className="ml-2" />

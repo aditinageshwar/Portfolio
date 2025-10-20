@@ -5,6 +5,7 @@ import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 import ThemeToggle from './Component/ThemeToggle';
+import HackIntern from './Component/HackIntern';
 import React, {useEffect,useRef} from 'react';
 import gsap from 'gsap';
 
@@ -34,14 +35,15 @@ function App() {
         <div className="text-2xl font-bold ml-[50px]">
           <h1 className='text-yellow-500 dark:text-cyan-500'>Aditi Nageshwar</h1>
         </div>
-        <ul className="flex ml-[600px] space-x-8" ref={menuRef}>
+        <ul className="flex ml-[410px] space-x-8" ref={menuRef}>
           <li><Link to="home" smooth={true} className="cursor-pointer font-semibold text-lg text-gray-800 hover:text-yellow-600 dark:text-white dark:hover:text-cyan-500">Home</Link></li>
           <li><Link to="about" smooth={true} className="cursor-pointer font-semibold text-lg text-gray-800 hover:text-yellow-600 dark:text-white dark:hover:text-cyan-500">About Me</Link></li>
           <li><Link to="skills" smooth={true} className="cursor-pointer font-semibold text-lg text-gray-800 hover:text-yellow-600 dark:text-white dark:hover:text-cyan-500">Skills</Link></li>
           <li><Link to="project" smooth={true} className="cursor-pointer font-semibold text-lg text-gray-800 hover:text-yellow-600 dark:text-white dark:hover:text-cyan-500">Projects</Link></li>
+          <li><Link to="hackintern" smooth={true} className="cursor-pointer font-semibold text-lg text-gray-800 hover:text-yellow-600 dark:text-white dark:hover:text-cyan-500">Hackathons & Internships</Link></li>
           <li><Link to="contact" smooth={true} className="cursor-pointer font-semibold text-lg text-gray-800 hover:text-yellow-600 dark:text-white dark:hover:text-cyan-500">Contact</Link></li>
         </ul>
-        <a href="https://drive.google.com/file/d/1HTHOuQl3GFnpEAo29KvxsG68e8UpPvci/view?usp=sharing" 
+        <a href="https://drive.google.com/file/d/1NqtYeK3quh5TKgFtFJunF_LKnKs0hZP6/view?usp=drive_link" 
           className="font-semibold text-white text-lg px-2 py-1 bg-yellow-500 border-2 rounded-lg mt-[-5px] hover:bg-yellow-600 dark:border-0 dark:bg-cyan-500 dark:hover:bg-cyan-600"
           ref={buttonRef}
         >
@@ -64,6 +66,9 @@ function App() {
         </div>
         <div id="project" className='pt-28'>
           <Projects />
+        </div>
+        <div id="hackintern" className='pt-28'>
+          <HackIntern />
         </div>
         <div id="contact" className='pt-24'>
           <Contact />
